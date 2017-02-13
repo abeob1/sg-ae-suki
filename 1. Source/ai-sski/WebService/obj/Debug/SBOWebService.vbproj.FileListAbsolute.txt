@@ -1,0 +1,77 @@
+C:\DATA\Working\ABEO\ai-sski\WebService\bin\SBOWebService.dll
+C:\DATA\Working\ABEO\ai-sski\WebService\bin\SBOWebService.pdb
+C:\DATA\Working\ABEO\ai-sski\WebService\bin\SBOWebService.xml
+C:\DATA\Working\ABEO\ai-sski\WebService\obj\Debug\Interop.SAPbobsCOM.dll
+C:\DATA\Working\ABEO\ai-sski\WebService\obj\Debug\SBOWebService.vbproj.ResolveComReference.cache
+C:\DATA\Working\ABEO\ai-sski\WebService\obj\Debug\SBOWebService.Resources.resources
+C:\DATA\Working\ABEO\ai-sski\WebService\obj\Debug\SBOWebService.vbproj.GenerateResource.Cache
+C:\DATA\Working\ABEO\ai-sski\WebService\obj\Debug\SBOWebService.dll
+C:\DATA\Working\ABEO\ai-sski\WebService\obj\Debug\SBOWebService.xml
+C:\DATA\Working\ABEO\ai-sski\WebService\obj\Debug\SBOWebService.pdb
+C:\DATA\Working\ABEO\ai-sski\WebService\obj\Debug\SBOWebService.vbprojResolveAssemblyReference.cache
+C:\Users\admin-pc\Desktop\ai-sski\WebService\obj\Debug\Interop.SAPbobsCOM.dll
+C:\Users\admin-pc\Desktop\ai-sski\WebService\obj\Debug\SBOWebService.vbproj.ResolveComReference.cache
+C:\Users\admin-pc\Desktop\ai-sski\WebService\obj\Debug\SBOWebService.Resources.resources
+C:\Users\admin-pc\Desktop\ai-sski\WebService\obj\Debug\SBOWebService.vbproj.GenerateResource.Cache
+C:\Users\admin-pc\Desktop\ai-sski\WebService\obj\Debug\SBOWebService.dll
+C:\Users\admin-pc\Desktop\ai-sski\WebService\obj\Debug\SBOWebService.xml
+C:\Users\admin-pc\Desktop\ai-sski\WebService\obj\Debug\SBOWebService.pdb
+C:\Users\admin-pc\Desktop\ai-sski\WebService\bin\SBOWebService.dll
+C:\Users\admin-pc\Desktop\ai-sski\WebService\bin\SBOWebService.pdb
+C:\Users\admin-pc\Desktop\ai-sski\WebService\bin\SBOWebService.xml
+C:\Users\admin-pc\Desktop\ai-sski\WebService\obj\Debug\SBOWebService.vbprojResolveAssemblyReference.cache
+C:\DATA\Working\ABEO\ai-sski\New Version\ai-sski\WebService\bin\SBOWebService.dll
+C:\DATA\Working\ABEO\ai-sski\New Version\ai-sski\WebService\bin\SBOWebService.pdb
+C:\DATA\Working\ABEO\ai-sski\New Version\ai-sski\WebService\bin\SBOWebService.xml
+C:\DATA\Working\ABEO\ai-sski\New Version\ai-sski\WebService\obj\Debug\SBOWebService.vbprojResolveAssemblyReference.cache
+C:\DATA\Working\ABEO\ai-sski\New Version\ai-sski\WebService\obj\Debug\Interop.SAPbobsCOM.dll
+C:\DATA\Working\ABEO\ai-sski\New Version\ai-sski\WebService\obj\Debug\SBOWebService.vbproj.ResolveComReference.cache
+C:\DATA\Working\ABEO\ai-sski\New Version\ai-sski\WebService\obj\Debug\SBOWebService.Resources.resources
+C:\DATA\Working\ABEO\ai-sski\New Version\ai-sski\WebService\obj\Debug\SBOWebService.vbproj.GenerateResource.Cache
+C:\DATA\Working\ABEO\ai-sski\New Version\ai-sski\WebService\obj\Debug\SBOWebService.dll
+C:\DATA\Working\ABEO\ai-sski\New Version\ai-sski\WebService\obj\Debug\SBOWebService.xml
+C:\DATA\Working\ABEO\ai-sski\New Version\ai-sski\WebService\obj\Debug\SBOWebService.pdb
+C:\DATA\Working\Abeo\Suki\ai-sski\WebService\bin\SBOWebService.dll
+C:\DATA\Working\Abeo\Suki\ai-sski\WebService\bin\SBOWebService.pdb
+C:\DATA\Working\Abeo\Suki\ai-sski\WebService\bin\SBOWebService.xml
+C:\DATA\Working\Abeo\Suki\ai-sski\WebService\obj\Debug\Interop.SAPbobsCOM.dll
+C:\DATA\Working\Abeo\Suki\ai-sski\WebService\obj\Debug\SBOWebService.vbproj.ResolveComReference.cache
+C:\DATA\Working\Abeo\Suki\ai-sski\WebService\obj\Debug\SBOWebService.Resources.resources
+C:\DATA\Working\Abeo\Suki\ai-sski\WebService\obj\Debug\SBOWebService.vbproj.GenerateResource.Cache
+C:\DATA\Working\Abeo\Suki\ai-sski\WebService\obj\Debug\SBOWebService.dll
+C:\DATA\Working\Abeo\Suki\ai-sski\WebService\obj\Debug\SBOWebService.xml
+C:\DATA\Working\Abeo\Suki\ai-sski\WebService\obj\Debug\SBOWebService.pdb
+C:\DATA\Working\Abeo\Suki\ai-sski\WebService\obj\Debug\SBOWebService.vbprojResolveAssemblyReference.cache
+C:\DATA\Working\Suki\ai-sski\WebService\bin\SBOWebService.dll
+C:\DATA\Working\Suki\ai-sski\WebService\bin\SBOWebService.pdb
+C:\DATA\Working\Suki\ai-sski\WebService\bin\SBOWebService.xml
+C:\DATA\Working\Suki\ai-sski\WebService\obj\Debug\SBOWebService.vbprojResolveAssemblyReference.cache
+C:\DATA\Working\Suki\ai-sski\WebService\obj\Debug\Interop.SAPbobsCOM.dll
+C:\DATA\Working\Suki\ai-sski\WebService\obj\Debug\SBOWebService.vbproj.ResolveComReference.cache
+C:\DATA\Working\Suki\ai-sski\WebService\obj\Debug\SBOWebService.Resources.resources
+C:\DATA\Working\Suki\ai-sski\WebService\obj\Debug\SBOWebService.vbproj.GenerateResource.Cache
+C:\DATA\Working\Suki\ai-sski\WebService\obj\Debug\SBOWebService.dll
+C:\DATA\Working\Suki\ai-sski\WebService\obj\Debug\SBOWebService.xml
+C:\DATA\Working\Suki\ai-sski\WebService\obj\Debug\SBOWebService.pdb
+E:\Abeo Projects\Suki\Web Order_new\New Version\ai-sski\WebService\bin\SBOWebService.dll
+E:\Abeo Projects\Suki\Web Order_new\New Version\ai-sski\WebService\bin\SBOWebService.pdb
+E:\Abeo Projects\Suki\Web Order_new\New Version\ai-sski\WebService\bin\SBOWebService.xml
+E:\Abeo Projects\Suki\Web Order_new\New Version\ai-sski\WebService\obj\Debug\Interop.SAPbobsCOM.dll
+E:\Abeo Projects\Suki\Web Order_new\New Version\ai-sski\WebService\obj\Debug\SBOWebService.vbproj.ResolveComReference.cache
+E:\Abeo Projects\Suki\Web Order_new\New Version\ai-sski\WebService\obj\Debug\SBOWebService.Resources.resources
+E:\Abeo Projects\Suki\Web Order_new\New Version\ai-sski\WebService\obj\Debug\SBOWebService.vbproj.GenerateResource.Cache
+E:\Abeo Projects\Suki\Web Order_new\New Version\ai-sski\WebService\obj\Debug\SBOWebService.dll
+E:\Abeo Projects\Suki\Web Order_new\New Version\ai-sski\WebService\obj\Debug\SBOWebService.xml
+E:\Abeo Projects\Suki\Web Order_new\New Version\ai-sski\WebService\obj\Debug\SBOWebService.pdb
+E:\Abeo Projects\Suki\Web Order_new\New Version\ai-sski\WebService\obj\Debug\SBOWebService.vbprojResolveAssemblyReference.cache
+E:\Abeo-Projects\Abeo_Projects_WorkArea\SUKI\1. Source\ai-sski\WebService\bin\SBOWebService.dll
+E:\Abeo-Projects\Abeo_Projects_WorkArea\SUKI\1. Source\ai-sski\WebService\bin\SBOWebService.pdb
+E:\Abeo-Projects\Abeo_Projects_WorkArea\SUKI\1. Source\ai-sski\WebService\bin\SBOWebService.xml
+E:\Abeo-Projects\Abeo_Projects_WorkArea\SUKI\1. Source\ai-sski\WebService\obj\Debug\SBOWebService.vbprojResolveAssemblyReference.cache
+E:\Abeo-Projects\Abeo_Projects_WorkArea\SUKI\1. Source\ai-sski\WebService\obj\Debug\Interop.SAPbobsCOM.dll
+E:\Abeo-Projects\Abeo_Projects_WorkArea\SUKI\1. Source\ai-sski\WebService\obj\Debug\SBOWebService.vbproj.ResolveComReference.cache
+E:\Abeo-Projects\Abeo_Projects_WorkArea\SUKI\1. Source\ai-sski\WebService\obj\Debug\SBOWebService.Resources.resources
+E:\Abeo-Projects\Abeo_Projects_WorkArea\SUKI\1. Source\ai-sski\WebService\obj\Debug\SBOWebService.vbproj.GenerateResource.Cache
+E:\Abeo-Projects\Abeo_Projects_WorkArea\SUKI\1. Source\ai-sski\WebService\obj\Debug\SBOWebService.dll
+E:\Abeo-Projects\Abeo_Projects_WorkArea\SUKI\1. Source\ai-sski\WebService\obj\Debug\SBOWebService.xml
+E:\Abeo-Projects\Abeo_Projects_WorkArea\SUKI\1. Source\ai-sski\WebService\obj\Debug\SBOWebService.pdb

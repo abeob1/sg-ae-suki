@@ -1,0 +1,71 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Suki.Site" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxToolkit" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        html, body, form, #wrapper
+        {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            border: none;
+            text-align: center;
+            font-family: Trebuchet MS !important;
+        }
+        
+        #wrapper
+        {
+            margin: 0 auto;
+            text-align: left;
+            vertical-align: middle;
+            width: 100%;
+        }
+    </style>
+    <link rel="stylesheet" href="Styles/Styles.css" type="text/css" />
+    <link rel="stylesheet" href="JQuery/jquery-ui.css" />
+    <script type="text/javascript" src="JQuery/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="JQuery/jquery-ui.js"></script>
+    <%--<script type="text/javascript" src="Scripts/dialog.js"></script>--%>
+    <%--<script type="text/javascript" src="Scripts/main.js"></script>--%>
+    <%--<script type="text/javascript" src="Scripts/jquery-ui.js"></script>--%>
+    <%--<script type="text/javascript" src="Scripts/jquery.js"></script>--%>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <ajax:ScriptManager ID="ScriptManager1" EnablePartialRendering="true" runat="server" />
+    <table id="wrapper" border="0">
+        <tr>
+            <td style="width: 15%; background-color: #660000">
+            </td>
+            <td align="center" valign="top">
+                <script type="text/javascript" language="javascript">
+                    var ModalProgress = '<%= ModalProgress.ClientID %>';         
+                </script>
+                <script type="text/javascript" src="Scripts/jsUpdateProgress.js"></script>
+                <asp:Panel ID="panelUpdateProgress" runat="server" CssClass="updateProgress">
+                    <asp:UpdateProgress ID="UpdateProg1" DisplayAfter="0" runat="server">
+                        <ProgressTemplate>
+                            <div style="position: relative; top: 30%; text-align: center;">
+                                <img src="Images/loading1.gif" style="vertical-align: middle" alt="Processing" height="50px"
+                                    width="50px" />
+                            </div>
+                        </ProgressTemplate>
+                    </asp:UpdateProgress>
+                </asp:Panel>
+                <ajaxToolkit:ModalPopupExtender ID="ModalProgress" runat="server" TargetControlID="panelUpdateProgress"
+                    BackgroundCssClass="modalBackground" PopupControlID="panelUpdateProgress" />
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </td>
+            <td style="width: 15%; background-color: #660000;">
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>

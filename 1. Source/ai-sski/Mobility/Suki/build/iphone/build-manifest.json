@@ -1,0 +1,22 @@
+{
+	"target": "simulator",
+	"deployType": "development",
+	"deviceFamily": "universal",
+	"iosSdkPath": "/Users/abeo/Library/Application Support/Titanium/mobilesdk/osx/3.1.3.GA/iphone",
+	"appGuid": "69181c0e-5ad4-4781-98ad-ab68af684d83",
+	"tiCoreHash": "77157e1ffaec640cf559356a147b6a4c",
+	"modulesHash": "d41d8cd98f00b204e9800998ecf8427e",
+	"gitHash": "222f4d1",
+	"name": "Suki",
+	"id": "com.suki",
+	"analytics": true,
+	"publisher": "abeo",
+	"url": "http://abeo-electra.com",
+	"version": "1.0",
+	"description": "not specified",
+	"copyright": "2013 by abeo",
+	"guid": "69181c0e-5ad4-4781-98ad-ab68af684d83",
+	"skipJSMinification": true,
+	"forceCopy": false,
+	"forceCopyAll": false
+}

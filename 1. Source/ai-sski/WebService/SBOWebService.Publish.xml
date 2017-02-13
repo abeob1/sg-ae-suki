@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="E:\Suki Publish\WS" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="Mobile.asmx" publishTime="08/26/2014 13:34:14" />
+    <file relUrl="bin/itextsharp.dll" publishTime="08/26/2014 13:32:08" />
+    <file relUrl="bin/SBOWebService.pdb" publishTime="06/03/2016 17:03:08" />
+    <file relUrl="bin/SBOWebService.xml" publishTime="06/03/2016 17:03:08" />
+    <file relUrl="Web.config" publishTime="09/17/2014 12:35:13" />
+    <file relUrl="bin/SBOWebService.dll" publishTime="06/03/2016 17:03:08" />
+    <file relUrl="Reports.asmx" publishTime="08/26/2014 13:32:07" />
+    <file relUrl="Transaction.asmx" publishTime="08/26/2014 13:32:07" />
+    <file relUrl="MasterData.asmx" publishTime="08/26/2014 13:32:07" />
+    <file relUrl="GetDefault.asmx" publishTime="08/26/2014 13:32:07" />
+  </publishProfile>
+</publishData>

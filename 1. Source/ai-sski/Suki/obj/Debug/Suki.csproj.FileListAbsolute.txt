@@ -1,0 +1,82 @@
+D:\Working\Abeo\ ai-sski\Suki\bin\Suki.dll
+D:\Working\Abeo\ ai-sski\Suki\bin\Suki.pdb
+D:\Working\Abeo\ ai-sski\Suki\bin\AjaxControlToolkit.dll
+D:\Working\Abeo\ ai-sski\Suki\obj\Debug\Suki.csprojResolveAssemblyReference.cache
+D:\Working\Abeo\ ai-sski\Suki\obj\Debug\Suki.dll
+D:\Working\Abeo\ ai-sski\Suki\obj\Debug\Suki.pdb
+C:\Users\admin-pc\Desktop\ai-sski\Suki\bin\Suki.dll
+C:\Users\admin-pc\Desktop\ai-sski\Suki\bin\Suki.pdb
+C:\Users\admin-pc\Desktop\ai-sski\Suki\bin\AjaxControlToolkit.dll
+C:\Users\admin-pc\Desktop\ai-sski\Suki\bin\itextsharp.dll
+C:\Users\admin-pc\Desktop\ai-sski\Suki\bin\NPOI.dll
+C:\Users\admin-pc\Desktop\ai-sski\Suki\obj\Debug\Suki.csprojResolveAssemblyReference.cache
+C:\Users\admin-pc\Desktop\ai-sski\Suki\obj\Debug\Suki.dll
+C:\Users\admin-pc\Desktop\ai-sski\Suki\obj\Debug\Suki.pdb
+C:\DATA\Working\ABEO\ai-sski\New Version\ai-sski\Suki\bin\Suki.dll
+C:\DATA\Working\ABEO\ai-sski\New Version\ai-sski\Suki\bin\Suki.pdb
+C:\DATA\Working\ABEO\ai-sski\New Version\ai-sski\Suki\bin\AjaxControlToolkit.dll
+C:\DATA\Working\ABEO\ai-sski\New Version\ai-sski\Suki\bin\itextsharp.dll
+C:\DATA\Working\ABEO\ai-sski\New Version\ai-sski\Suki\bin\NPOI.dll
+C:\DATA\Working\ABEO\ai-sski\New Version\ai-sski\Suki\obj\Debug\Suki.dll
+C:\DATA\Working\ABEO\ai-sski\New Version\ai-sski\Suki\obj\Debug\Suki.pdb
+C:\DATA\Working\ABEO\ai-sski\New Version\ai-sski\Suki\obj\Debug\Suki.csprojResolveAssemblyReference.cache
+C:\DATA\Working\ABEO\ai-sski\New Version\ai-sski\Suki\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\DATA\Working\ABEO\ai-sski\New Version\ai-sski\Suki\bin\CrystalDecisions.ReportSource.dll
+C:\DATA\Working\ABEO\ai-sski\New Version\ai-sski\Suki\bin\CrystalDecisions.Shared.dll
+C:\DATA\Working\ABEO\ai-sski\New Version\ai-sski\Suki\bin\CrystalDecisions.Web.dll
+C:\DATA\Working\ABEO\ai-sski\Suki\bin\Suki.dll
+C:\DATA\Working\ABEO\ai-sski\Suki\bin\Suki.pdb
+C:\DATA\Working\ABEO\ai-sski\Suki\bin\AjaxControlToolkit.dll
+C:\DATA\Working\ABEO\ai-sski\Suki\bin\itextsharp.dll
+C:\DATA\Working\ABEO\ai-sski\Suki\bin\NPOI.dll
+C:\DATA\Working\ABEO\ai-sski\Suki\obj\Debug\Suki.csprojResolveAssemblyReference.cache
+C:\DATA\Working\ABEO\ai-sski\Suki\obj\Debug\Suki.dll
+C:\DATA\Working\ABEO\ai-sski\Suki\obj\Debug\Suki.pdb
+C:\DATA\Working\Abeo\Suki\ai-sski\Suki\bin\Suki.dll
+C:\DATA\Working\Abeo\Suki\ai-sski\Suki\bin\Suki.pdb
+C:\DATA\Working\Abeo\Suki\ai-sski\Suki\bin\AjaxControlToolkit.dll
+C:\DATA\Working\Abeo\Suki\ai-sski\Suki\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\DATA\Working\Abeo\Suki\ai-sski\Suki\bin\CrystalDecisions.ReportSource.dll
+C:\DATA\Working\Abeo\Suki\ai-sski\Suki\bin\CrystalDecisions.Shared.dll
+C:\DATA\Working\Abeo\Suki\ai-sski\Suki\bin\CrystalDecisions.Web.dll
+C:\DATA\Working\Abeo\Suki\ai-sski\Suki\bin\itextsharp.dll
+C:\DATA\Working\Abeo\Suki\ai-sski\Suki\bin\NPOI.dll
+C:\DATA\Working\Abeo\Suki\ai-sski\Suki\obj\Debug\Suki.dll
+C:\DATA\Working\Abeo\Suki\ai-sski\Suki\obj\Debug\Suki.pdb
+C:\DATA\Working\Abeo\Suki\ai-sski\Suki\obj\Debug\Suki.csprojResolveAssemblyReference.cache
+C:\SUKI\ai-sski\Suki\bin\Suki.dll
+C:\SUKI\ai-sski\Suki\bin\Suki.pdb
+C:\SUKI\ai-sski\Suki\bin\AjaxControlToolkit.dll
+C:\SUKI\ai-sski\Suki\bin\itextsharp.dll
+C:\SUKI\ai-sski\Suki\bin\NPOI.dll
+C:\SUKI\ai-sski\Suki\obj\Debug\Suki.csprojResolveAssemblyReference.cache
+C:\SUKI\ai-sski\Suki\obj\Debug\Suki.dll
+C:\SUKI\ai-sski\Suki\obj\Debug\Suki.pdb
+C:\DATA\Working\Suki\ai-sski\Suki\bin\Suki.dll
+C:\DATA\Working\Suki\ai-sski\Suki\bin\Suki.pdb
+C:\DATA\Working\Suki\ai-sski\Suki\bin\AjaxControlToolkit.dll
+C:\DATA\Working\Suki\ai-sski\Suki\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\DATA\Working\Suki\ai-sski\Suki\bin\CrystalDecisions.ReportSource.dll
+C:\DATA\Working\Suki\ai-sski\Suki\bin\CrystalDecisions.Shared.dll
+C:\DATA\Working\Suki\ai-sski\Suki\bin\CrystalDecisions.Web.dll
+C:\DATA\Working\Suki\ai-sski\Suki\bin\itextsharp.dll
+C:\DATA\Working\Suki\ai-sski\Suki\bin\NPOI.dll
+C:\DATA\Working\Suki\ai-sski\Suki\obj\Debug\Suki.csprojResolveAssemblyReference.cache
+C:\DATA\Working\Suki\ai-sski\Suki\obj\Debug\Suki.dll
+C:\DATA\Working\Suki\ai-sski\Suki\obj\Debug\Suki.pdb
+E:\Abeo Projects\Suki\Web Order_new\New Version\ai-sski\Suki\bin\Suki.dll
+E:\Abeo Projects\Suki\Web Order_new\New Version\ai-sski\Suki\bin\Suki.pdb
+E:\Abeo Projects\Suki\Web Order_new\New Version\ai-sski\Suki\bin\AjaxControlToolkit.dll
+E:\Abeo Projects\Suki\Web Order_new\New Version\ai-sski\Suki\bin\itextsharp.dll
+E:\Abeo Projects\Suki\Web Order_new\New Version\ai-sski\Suki\bin\NPOI.dll
+E:\Abeo Projects\Suki\Web Order_new\New Version\ai-sski\Suki\obj\Debug\Suki.dll
+E:\Abeo Projects\Suki\Web Order_new\New Version\ai-sski\Suki\obj\Debug\Suki.pdb
+E:\Abeo Projects\Suki\Web Order_new\New Version\ai-sski\Suki\obj\Debug\Suki.csprojResolveAssemblyReference.cache
+E:\Abeo-Projects\Abeo_Projects_WorkArea\SUKI\1. Source\ai-sski\Suki\bin\Suki.dll
+E:\Abeo-Projects\Abeo_Projects_WorkArea\SUKI\1. Source\ai-sski\Suki\bin\Suki.pdb
+E:\Abeo-Projects\Abeo_Projects_WorkArea\SUKI\1. Source\ai-sski\Suki\bin\AjaxControlToolkit.dll
+E:\Abeo-Projects\Abeo_Projects_WorkArea\SUKI\1. Source\ai-sski\Suki\bin\itextsharp.dll
+E:\Abeo-Projects\Abeo_Projects_WorkArea\SUKI\1. Source\ai-sski\Suki\bin\NPOI.dll
+E:\Abeo-Projects\Abeo_Projects_WorkArea\SUKI\1. Source\ai-sski\Suki\obj\Debug\Suki.csprojResolveAssemblyReference.cache
+E:\Abeo-Projects\Abeo_Projects_WorkArea\SUKI\1. Source\ai-sski\Suki\obj\Debug\Suki.dll
+E:\Abeo-Projects\Abeo_Projects_WorkArea\SUKI\1. Source\ai-sski\Suki\obj\Debug\Suki.pdb

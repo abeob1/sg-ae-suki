@@ -1,0 +1,378 @@
+﻿
+
+.buttonmenu{
+list-style-type: none;
+margin: 0;
+padding: 0;
+width: 180px;
+
+}
+
+.buttonmenu li a{
+color: white;
+display: block;
+width: 100%;
+padding: 2px 4px;
+text-decoration: none;
+font-weight: bold;
+border: 1px solid;
+border-color:#D5BFD0 #5A3A54 #5A3A54 #D5BFD0; /*light dark dark light*/
+background-color: #704968;
+text-decoration:none;
+}
+
+
+.buttonmenu li a:visited{
+color: white;
+}
+
+.buttonmenu li a:hover, .buttonmenu li a:active{
+color: black;
+background-color: #CDB4C8;
+}
+  .web_dialog_overlay
+        {
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            background: #000000;
+            opacity: .15;
+            filter: alpha(opacity=15);
+            -moz-opacity: .15;
+            z-index: 101;
+            display: none;
+        }
+        .web_dialog
+        {
+            display: none;
+            position: fixed;
+            width: 405px;
+            height: 600px;
+            top: 30%;
+            left: 45%;
+            margin-left: -190px;
+            margin-top: -100px;
+            background-color: #ffffff;
+            border: 2px solid #336699;
+            padding: 0px;
+            z-index: 102;
+            font-family: Verdana;
+            font-size: 10pt;
+        }
+        .web_dialog_title
+        {
+            border-bottom: solid 2px #336699;
+            background-color: #336699;
+            padding: 4px;
+            color: White;
+            font-weight:bold;
+        }
+        .web_dialog_title a
+        {
+            color: White;
+            text-decoration: none;
+        }
+        .align_right
+        {
+            text-align: right;
+        }
+ A.menu:link
+{
+	background: none transparent scroll repeat 0% 0%;
+	color: #ffffff;
+	font-family: Arial, Verdana, Helvetica;
+	text-decoration: none;
+} 
+ A.menu:active
+{
+	background: none transparent scroll repeat 0% 0%;
+	color: #ffffff;
+	font-family: Arial, Verdana, Helvetica;
+	text-decoration: none;	
+} 
+
+
+ A.menu:visited
+{
+	background: none transparent scroll repeat 0% 0%;
+	color: #ffffff;
+	font-family: Arial, Verdana, Helvetica;
+	text-decoration: none;
+} 
+
+
+
+ A.menu:hover
+{
+	background: none transparent scroll repeat 0% 0%;
+	color: #ff0000;
+	font-family: Arial, Verdana, Helvetica;
+	text-decoration: none;
+}
+
+
+.DarkColor
+{
+	color:White;
+    background-color:#6699CC;
+    font-weight:bold;
+}
+.LightColor
+{
+	color:Black;
+	background-color:#EFF3FF;
+}
+.FieldColor
+{
+	background-color:#B6C7E5;
+}
+.ItemColor
+{
+	background-color:#EEEEEE;
+}
+.btnStyle
+{
+	font-family:Arial, Verdana, Helvetica;
+	font-size:10pt;
+	font-weight:bold;
+	color:White;
+}
+.rightMenu {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #262D35;
+	font-weight: bolder;
+}
+.rightMenulinks {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #313840;
+	font-weight: bold;
+}
+
+
+TD
+{
+	font-family:Trebuchet MS;
+	font-size:9pt;
+
+}
+input[type="submit"]
+{
+    color:White;
+    background-color:#660000;
+    border-style: none !important;
+    font-weight:normal;
+    height:30px;
+}
+.MyNode, .MyNodeOver, .MyNodeSelected, .MyNodeLoading
+{
+	font-family: verdana, sans-serif;
+	font-size: 12px;
+	cursor: hand;
+}
+
+.MyNode
+{
+	color: #EB5300;
+}
+
+.MyNodeOver
+{
+	color: #FFB389;
+}
+
+.MyNodeSelected
+{
+	background-color: #EB5300;
+	color: white;
+}
+
+.MyNodeLoading
+{
+	color: red;
+}
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+font-family:Trebuchet MS !important;
+
+    /*background-image:url(Images/bg_gradient.gif) A87B53  EEEEEE*/ 
+  /*background-color:#EEEEEE;*/
+}
+ td
+ {
+    font-family:Trebuchet MS !important; 
+ }
+  th
+ {
+    font-family:Trebuchet MS !important; 
+    font-weight:bold;
+ }
+a:link {
+    text-decoration:none;
+	color:#660000;
+}
+a:visited {
+	color:#660000;
+}
+a:hover {
+	color:Red;
+}
+a:active {
+	color:#660000;
+}
+.sukiMenu  a:link {
+    text-decoration:none;
+	color:#ffffff;
+}
+.sukiMenu  a:visited {
+	color:#ffffff;
+}
+.sukiMenu a:hover {
+	color:Orange;
+}
+.sukiMenu a:active {
+	color:#ffffff;
+}
+
+
+.frm { border:1px solid #cfcfcf; background:#D2D2D2 top repeat-x; font-size:11px; padding:12px 7px 12px 7px; margin-top:7px; }
+.style9 {color: #FFFFFF}
+.style11 {font-size: 11px}
+.style12 {font-family: Verdana, Arial, Helvetica, sans-serif}
+.style15 {color: #FFFFFF; font-size: 11px; }
+
+.GridInner
+{
+	font-size:9pt;
+	font-family :Trebuchet MS;
+}
+
+.LoginHeader{
+	/*background-color:#74453A;*/
+	background-color:#316AC5;
+	text-align:left;
+	font-family: Verdana;
+	font-size: 12px;
+	color: Black;
+	font-weight: bold;
+	border:1px solid #cfcfcf;
+}
+.MenuHeader{
+	/*background-color:#7d5f3b;*/
+	background-color:#D2D2D2;
+	font-family: Verdana;
+	font-size: 12px;
+	color: Black;
+	font-weight: bold;
+	border:1px solid #cfcfcf;
+	vertical-align:middle;
+}
+
+.buttonmenu{
+list-style-type: none;
+margin: 0;
+padding: 0;
+width: 180px;
+
+}
+
+.buttonmenu li a{
+color: white;
+display: block;
+width: 100%;
+padding: 2px 4px;
+text-decoration: none;
+font-weight: bold;
+border: 1px solid;
+border-color:#D5BFD0 #5A3A54 #5A3A54 #D5BFD0; /*light dark dark light*/
+background-color: #704968;
+text-decoration:none;
+}
+
+
+.buttonmenu li a:visited{
+color: white;
+}
+
+.buttonmenu li a:hover, .buttonmenu li a:active{
+color: black;
+background-color: #CDB4C8;
+}
+
+H2	{	
+	font-family: Verdana;
+	font-size: 18px;
+	color: Black;
+	font-weight: bold;
+	margin-left:5px;
+	}
+	
+	
+a.squarebutton{
+background: transparent url('media/square-orange-right.gif') no-repeat top left;
+display: block;
+float: left;
+font: normal 12px Verdana; 
+line-height: 15px; /* This value + 4px + 4px (top and bottom padding of SPAN) must equal height of button background (default is 23px) */
+height: 23px; /* Height of button background height */
+padding-left: 9px; /* width of left menu image */
+text-decoration: none;
+}
+
+a:link.squarebutton, a:visited.squarebutton, a:active.squarebutton{
+color: #494949; /*button text color*/
+}
+
+a.squarebutton span{
+background: transparent url('media/square-gray-right.gif') no-repeat top right;
+display: block;
+padding: 4px 9px 4px 0; /*Set 9px below to match value of 'padding-left' value above*/
+}
+
+a.squarebutton:hover{ /* Hover state CSS */
+background-position: bottom left;
+}
+
+a.squarebutton:hover span{ /* Hover state CSS */
+background-position: bottom right;
+color: black;
+}
+
+.buttonwrapper{ /* Container you can use to surround a CSS button to clear float */
+overflow: hidden; 
+width: 100%;
+}
+
+.MyCalendar .ajax__calendar_container {
+    border:1px solid #646464;
+    background-color: white;
+    color: blue;
+}
+.MyCalendar .ajax__calendar_other .ajax__calendar_day,
+.MyCalendar .ajax__calendar_other .ajax__calendar_year {
+    color: black;
+}
+.MyCalendar .ajax__calendar_hover .ajax__calendar_day,
+.MyCalendar .ajax__calendar_hover .ajax__calendar_month,
+.MyCalendar .ajax__calendar_hover .ajax__calendar_year {
+    color: black;
+}
+.MyCalendar .ajax__calendar_active .ajax__calendar_day,
+.MyCalendar .ajax__calendar_active .ajax__calendar_month,
+.MyCalendar .ajax__calendar_active .ajax__calendar_year {
+    color: black;
+    font-weight:bold;
+}
+
+

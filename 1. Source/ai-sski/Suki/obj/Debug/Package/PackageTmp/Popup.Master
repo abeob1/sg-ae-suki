@@ -1,0 +1,70 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Popup.master.cs" Inherits="Suki.Popup" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxToolkit" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <script src="Scripts/jquery-1.7.1.js" type="text/javascript"></script>
+    <script type="text/javascript" src="Scripts/main.js"></script>
+    <script type="text/javascript" src="Scripts/common.js"></script>
+    <link rel="stylesheet" href="Styles/Styles.css" type="text/css" />
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("input:text").on("focus", function (e) {
+                $(this).select();
+            });
+        });
+
+        var key = "";
+        var isNS = (navigator.appName == "Netscape") ? 1 : 0;
+        if (navigator.appName == "Netscape") document.captureEvents(Event.MOUSEDOWN || Event.MOUSEUP);
+        function mischandler() {
+            return false;
+        }
+
+        function keyhandler(en) {
+            key = en.keyCode;
+        }
+
+        function mousehandler(e) {
+            var myevent = (isNS) ? e : event;
+            var eventbutton = (isNS) ? myevent.which : myevent.button;
+            if ((eventbutton == 3)) { alert("Right-click Not Allowed"); return false; }
+            else if ((eventbutton == 2)) { alert("Mouse center-click Not Allowed"); return false; }
+            else if ((key == 17) && (eventbutton == 1)) { alert("Control + Left-click Not Allowed"); key = 0; return false; }
+        }
+        document.oncontextmenu = mischandler;
+        document.onmousedown = mousehandler;
+        document.onmouseup = mousehandler;
+        document.onkeydown = keyhandler;
+    </script>
+</head>
+<body oncontextmenu="return false">
+    <form id="form1" runat="server">
+    <ajax:ScriptManager ID="ScriptManager1" EnablePartialRendering="true" runat="server" />
+    <div>
+        <script type="text/javascript" language="javascript">
+            var ModalProgress = '<%= ModalProgress.ClientID %>';         
+        </script>
+        <script type="text/javascript" src="Scripts/jsUpdateProgress.js"></script>
+        <asp:Panel ID="panelUpdateProgress" runat="server" CssClass="updateProgress">
+            <asp:UpdateProgress ID="UpdateProg1" DisplayAfter="0" runat="server">
+                <ProgressTemplate>
+                    <div style="position: relative; top: 30%; text-align: center;">
+                        <img src="Images/loading1.gif" style="vertical-align: middle" alt="Processing" height="50px"
+                            width="50px" />
+                    </div>
+                </ProgressTemplate>
+            </asp:UpdateProgress>
+        </asp:Panel>
+        <ajaxToolkit:ModalPopupExtender ID="ModalProgress" runat="server" TargetControlID="panelUpdateProgress"
+            BackgroundCssClass="modalBackground" PopupControlID="panelUpdateProgress" />
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

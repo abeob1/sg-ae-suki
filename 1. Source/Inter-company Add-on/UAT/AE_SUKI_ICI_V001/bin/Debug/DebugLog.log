@@ -1,0 +1,180 @@
+[02/12/2015 10:46:51][           Item Pressed AR Credit memo()] Item ID 1
+[02/12/2015 10:46:51][           Item Pressed AR Credit memo()] Customer Name C0000048
+[02/12/2015 10:46:51][           Item Pressed AR Credit memo()] Trading Company UAT_RIshiMura
+[02/12/2015 10:46:51][           Item Pressed AR Credit memo()] Trading Connection UAT_RIshiMura;manager;1234;JOHN\SQL2012;sa;2012;JOHN;2012
+[02/12/2015 10:46:51][           Item Pressed AR Credit memo()] Completed With SUCCESS 
+[02/12/2015 10:46:55][        AR Credit memo - Form Data Event] Starting 
+[02/12/2015 10:46:55][  AR Credit memo Draft - Form Data Event] Starting 
+[02/12/2015 10:46:55][  AR Credit memo Draft - Form Data Event] AP DocEntry 194
+[02/12/2015 10:46:55][  AR Credit memo Draft - Form Data Event] AR DocEntry 67
+[02/12/2015 10:46:55][  AR Credit memo Draft - Form Data Event] Calling ConnectToTradingCompany()
+[02/12/2015 10:46:55][               ConnectToTradingCompany()] Starting function
+[02/12/2015 10:46:55][               ConnectToTradingCompany()] Initializing the Company Object
+[02/12/2015 10:46:55][               ConnectToTradingCompany()] Assigning the Trading database name
+[02/12/2015 10:46:55][               ConnectToTradingCompany()] Conncting to the Company Database.
+[02/12/2015 10:47:07][               ConnectToTradingCompany()] Completed with SUCCESS
+[02/12/2015 10:47:07][  AR Credit memo Draft - Form Data Event] Calling Update_DraftNumToTargetDocument() 
+[02/12/2015 10:47:07][       Update_DraftNumToTargetDocument()] Starting Function
+[02/12/2015 10:47:07][       Update_DraftNumToTargetDocument()] SQL Query SELECT (SELECT T10.[SeriesName] FROM NNM1 T10 WHERE T10.[Series]  = T0.[Series])  +  CAST(T0.DOCNUM AS NVARCHAR) AS [DOCNUM] FROM ORPC T0 where T0.DocEntry = '67'
+[02/12/2015 10:47:07][       Update_DraftNumToTargetDocument()] Base DocEntry 67
+[02/12/2015 10:47:07][       Update_DraftNumToTargetDocument()] Before Adding 
+[02/12/2015 10:47:07][       Update_DraftNumToTargetDocument()] Completed with SUCCESS : 67
+[02/12/2015 10:47:07][                 Insert_IntegrationLog()] Starting Function 
+[02/12/2015 10:47:07][                 Insert_IntegrationLog()] Checking SQL select isnull(Code,'') [Code] from UAT_HSukiGroup .. [@AE_INTEGRATIONLOG] where U_AE_SrcDBName = 'UAT_RIshiMura' and U_AE_SrcDocEntry = '67' and U_AE_SrcDocType = '19' and U_AE_TgtDBName = 'UAT_HSukiGroup' and isnull(U_AE_TgtDocEntry,'') = ''
+[02/12/2015 10:47:07][                 Insert_IntegrationLog()] Insert SQL INSERT INTO UAT_HSukiGroup ..[@AE_INTEGRATIONLOG] ([Code], [Name], [U_AE_SrcDBName], [U_AE_SrcDocType], [U_AE_SrcDocEntry], [U_AE_TgtDBName], [U_AE_TgtDocType],[U_AE_TgtDocEntry], [U_AE_TgtDraftDocEnty], [U_AE_IntegrationStat], [U_AE_IntegrationMsg], [U_AE_SrcCreateDate] ) VALUES ('17' , '17', 'UAT_RIshiMura', '19', '67', 'UAT_HSukiGroup','14' , '194', '', 'Success', '', '20150212' )
+[02/12/2015 10:47:07][                 Insert_IntegrationLog()] Completed with SUCCESS 
+[02/12/2015 10:47:07][  AR Credit memo Draft - Form Data Event] Completed with SUCCESS 
+[02/12/2015 15:00:39][                                  Main()] Starting Addon startup function
+[02/12/2015 15:00:39][                                  Main()] Initializing public SBO Application object
+[02/12/2015 15:00:39][                                  Main()] Retriving SBO application company handle
+[02/12/2015 15:00:40][                                  Main()] Calling ConnectDICompSSO()
+[02/12/2015 15:00:40][                      ConnectDICompSSO()] Starting function
+[02/12/2015 15:00:54][                      ConnectDICompSSO()] Completed with SUCCESS
+[02/12/2015 15:00:54][                                  Main()] Calling GetSystemIntializeInfo()
+[02/12/2015 15:00:55][                GetSystemIntializeInfo()] Starting Function
+[02/12/2015 15:00:55][                GetSystemIntializeInfo()] Completed with SUCCESS
+[02/12/2015 15:00:55][                                  Main()] Calling AddMenus Functions
+[02/12/2015 15:01:04][                     GetCompanyDetails()] Starting Function
+[02/12/2015 15:01:10][                     GetCompanyDetails()] Completed With SUCCESS
+[02/12/2015 15:01:10][                                  Main()] Creating Event handler class
+[02/12/2015 15:01:10][                      Class_Initialize()] Starting function
+[02/12/2015 15:01:10][                      Class_Initialize()] Retriving SBO Application handle
+[02/12/2015 15:01:10][                      Class_Initialize()] Completed with SUCCESS
+[02/12/2015 15:01:10][                                  Main()] Calling SetApplication Function
+[02/12/2015 15:01:10][                                  Main()] Addon started successfully
+[02/12/2015 15:01:10][                                  Main()] Calling EndStatus()
+[02/12/2015 15:02:47][           Item Pressed AR Credit memo()] Item ID 1
+[02/12/2015 15:02:47][           Item Pressed AR Credit memo()] Customer Name C0000048
+[02/12/2015 15:02:47][           Item Pressed AR Credit memo()] Trading Company UAT_RIshiMura
+[02/12/2015 15:02:47][           Item Pressed AR Credit memo()] Trading Connection UAT_RIshiMura;manager;1234;JOHN\SQL2012;sa;2012;JOHN;2012
+[02/12/2015 15:02:47][           Item Pressed AR Credit memo()] Completed With SUCCESS 
+[02/12/2015 15:02:50][        AR Credit memo - Form Data Event] Starting 
+[02/12/2015 15:02:50][  AR Credit memo Draft - Form Data Event] Starting 
+[02/12/2015 15:02:50][  AR Credit memo Draft - Form Data Event] AP DocEntry 196
+[02/12/2015 15:02:50][  AR Credit memo Draft - Form Data Event] AR DocEntry 70
+[02/12/2015 15:02:50][  AR Credit memo Draft - Form Data Event] Calling ConnectToTradingCompany()
+[02/12/2015 15:02:50][               ConnectToTradingCompany()] Starting function
+[02/12/2015 15:02:50][               ConnectToTradingCompany()] Initializing the Company Object
+[02/12/2015 15:02:50][               ConnectToTradingCompany()] Assigning the Trading database name
+[02/12/2015 15:02:50][               ConnectToTradingCompany()] Conncting to the Company Database.
+[02/12/2015 15:03:09][               ConnectToTradingCompany()] Completed with SUCCESS
+[02/12/2015 15:03:09][  AR Credit memo Draft - Form Data Event] Calling Update_DraftNumToTargetDocument() 
+[02/12/2015 15:03:09][       Update_DraftNumToTargetDocument()] Starting Function
+[02/12/2015 15:03:10][       Update_DraftNumToTargetDocument()] SQL Query SELECT (SELECT T10.[SeriesName] FROM NNM1 T10 WHERE T10.[Series]  = T0.[Series])  +  CAST(T0.DOCNUM AS NVARCHAR) AS [DOCNUM] FROM ORIN T0 where T0.DocEntry = '70'
+[02/12/2015 15:03:10][       Update_DraftNumToTargetDocument()] Base DocEntry 70
+[02/12/2015 15:03:10][       Update_DraftNumToTargetDocument()] Before Adding 
+[02/12/2015 15:03:10][       Update_DraftNumToTargetDocument()] Completed with SUCCESS : 70
+[02/12/2015 15:03:10][                 Insert_IntegrationLog()] Starting Function 
+[02/12/2015 15:03:10][                 Insert_IntegrationLog()] Checking SQL select isnull(Code,'') [Code] from UAT_HSukiGroup .. [@AE_INTEGRATIONLOG] where U_AE_SrcDBName = 'UAT_RIshiMura' and U_AE_SrcDocEntry = '196' and U_AE_SrcDocType = '19' and U_AE_TgtDBName = 'UAT_HSukiGroup' and isnull(U_AE_TgtDocEntry,'') = ''
+[02/12/2015 15:03:10][                 Insert_IntegrationLog()] Insert SQL INSERT INTO UAT_HSukiGroup ..[@AE_INTEGRATIONLOG] ([Code], [Name], [U_AE_SrcDBName], [U_AE_SrcDocType], [U_AE_SrcDocEntry], [U_AE_TgtDBName], [U_AE_TgtDocType],[U_AE_TgtDocEntry], [U_AE_TgtDraftDocEnty], [U_AE_IntegrationStat], [U_AE_IntegrationMsg], [U_AE_SrcCreateDate] ) VALUES ('14' , '14', 'UAT_RIshiMura', '19', '196', 'UAT_HSukiGroup','14' , '70', '', 'Success', '', '20150212' )
+[02/12/2015 15:03:10][                 Insert_IntegrationLog()] Completed with SUCCESS 
+[02/12/2015 15:03:10][  AR Credit memo Draft - Form Data Event] Completed with SUCCESS 
+[05/27/2015 18:20:13][                                  Main()] Starting Addon startup function
+[05/27/2015 18:20:14][                                  Main()] Initializing public SBO Application object
+[05/27/2015 18:20:14][                                  Main()] Retriving SBO application company handle
+[05/27/2015 18:20:15][                                  Main()] Calling ConnectDICompSSO()
+[05/27/2015 18:20:15][                      ConnectDICompSSO()] Starting function
+[05/27/2015 18:20:22][                      ConnectDICompSSO()] Completed with SUCCESS
+[05/27/2015 18:20:22][                                  Main()] Calling GetSystemIntializeInfo()
+[05/27/2015 18:20:22][                GetSystemIntializeInfo()] Starting Function
+[05/27/2015 18:21:49][                                  Main()] Starting Addon startup function
+[05/27/2015 18:21:49][                                  Main()] Initializing public SBO Application object
+[05/27/2015 18:21:49][                                  Main()] Retriving SBO application company handle
+[05/27/2015 18:21:50][                                  Main()] Calling ConnectDICompSSO()
+[05/27/2015 18:21:50][                      ConnectDICompSSO()] Starting function
+[05/27/2015 18:21:55][                      ConnectDICompSSO()] Completed with SUCCESS
+[05/27/2015 18:21:55][                                  Main()] Calling GetSystemIntializeInfo()
+[05/27/2015 18:21:55][                GetSystemIntializeInfo()] Starting Function
+[05/27/2015 18:22:26][                GetSystemIntializeInfo()] Completed with SUCCESS
+[05/27/2015 18:22:31][                                  Main()] Calling AddMenus Functions
+[05/27/2015 18:22:55][                     GetCompanyDetails()] Starting Function
+[05/27/2015 18:37:03][                                  Main()] Starting Addon startup function
+[05/27/2015 18:37:03][                                  Main()] Initializing public SBO Application object
+[05/27/2015 18:37:03][                                  Main()] Retriving SBO application company handle
+[05/27/2015 18:37:04][                                  Main()] Calling ConnectDICompSSO()
+[05/27/2015 18:37:04][                      ConnectDICompSSO()] Starting function
+[05/27/2015 18:37:09][                      ConnectDICompSSO()] Completed with SUCCESS
+[05/27/2015 18:37:09][                                  Main()] Calling GetSystemIntializeInfo()
+[05/27/2015 18:37:09][                GetSystemIntializeInfo()] Starting Function
+[05/27/2015 18:37:11][                GetSystemIntializeInfo()] Completed with SUCCESS
+[05/27/2015 18:37:11][                                  Main()] Calling AddMenus Functions
+[05/27/2015 18:37:23][                     GetCompanyDetails()] Starting Function
+[06/10/2015 14:03:06][                                  Main()] Starting Addon startup function
+[06/10/2015 14:03:06][                                  Main()] Initializing public SBO Application object
+[06/10/2015 14:03:06][                                  Main()] Retriving SBO application company handle
+[06/10/2015 14:03:06][                                  Main()] Calling ConnectDICompSSO()
+[06/10/2015 14:03:06][                      ConnectDICompSSO()] Starting function
+[06/10/2015 14:03:12][                      ConnectDICompSSO()] Completed with SUCCESS
+[06/10/2015 14:03:12][                                  Main()] Calling GetSystemIntializeInfo()
+[06/10/2015 14:03:12][                GetSystemIntializeInfo()] Starting Function
+[06/10/2015 14:03:12][                GetSystemIntializeInfo()] Completed with SUCCESS
+[06/10/2015 14:03:12][                                  Main()] Calling AddMenus Functions
+[06/10/2015 14:03:29][                                  Main()] Starting Addon startup function
+[06/10/2015 14:03:29][                                  Main()] Initializing public SBO Application object
+[06/10/2015 14:03:29][                                  Main()] Retriving SBO application company handle
+[06/10/2015 14:03:29][                                  Main()] Calling ConnectDICompSSO()
+[06/10/2015 14:03:29][                      ConnectDICompSSO()] Starting function
+[06/10/2015 14:03:35][                      ConnectDICompSSO()] Completed with SUCCESS
+[06/10/2015 14:03:35][                                  Main()] Calling GetSystemIntializeInfo()
+[06/10/2015 14:03:35][                GetSystemIntializeInfo()] Starting Function
+[06/10/2015 14:03:35][                GetSystemIntializeInfo()] Completed with SUCCESS
+[06/10/2015 14:03:35][                                  Main()] Calling AddMenus Functions
+[06/10/2015 14:03:39][                     GetCompanyDetails()] Starting Function
+[06/10/2015 14:03:39][                     GetCompanyDetails()] Company Setup Query SELECT * FROM UAT_HSukiGroup ..[@AB_COMPANYSETUP]
+[06/10/2015 14:03:39][                      ConvertRecordset()] Starting function
+[06/10/2015 14:03:39][                      ConvertRecordset()] Completed with SUCCESS
+[06/10/2015 14:03:39][                     GetCompanyDetails()] Completed With SUCCESS
+[06/10/2015 14:03:39][                                  Main()] Creating Event handler class
+[06/10/2015 14:03:39][                      Class_Initialize()] Starting function
+[06/10/2015 14:03:39][                      Class_Initialize()] Retriving SBO Application handle
+[06/10/2015 14:03:39][                      Class_Initialize()] Completed with SUCCESS
+[06/10/2015 14:03:39][                                  Main()] Calling SetApplication Function
+[06/10/2015 14:03:39][                                  Main()] Addon started successfully
+[06/10/2015 14:03:39][                                  Main()] Calling EndStatus()
+[06/10/2015 14:04:25][               Item Pressed AR Invoice()] Item ID 1
+[06/10/2015 14:04:25][               Item Pressed AR Invoice()] Customer Name C0000048
+[06/10/2015 14:04:25][               Item Pressed AR Invoice()] Trading Company UAT_RIshiMura
+[06/10/2015 14:04:25][               Item Pressed AR Invoice()] Trading Connection UAT_RIshiMura;manager;1234;JOHN\SQL2012;sa;2012;JOHN;2012
+[06/10/2015 14:04:25][               Item Pressed AR Invoice()] Completed With SUCCESS 
+[06/10/2015 14:04:39][               Item Pressed AR Invoice()] Item ID 1
+[06/10/2015 14:04:39][               Item Pressed AR Invoice()] Customer Name C0000048
+[06/10/2015 14:04:39][               Item Pressed AR Invoice()] Trading Company UAT_RIshiMura
+[06/10/2015 14:04:39][               Item Pressed AR Invoice()] Trading Connection UAT_RIshiMura;manager;1234;JOHN\SQL2012;sa;2012;JOHN;2012
+[06/10/2015 14:04:39][               Item Pressed AR Invoice()] Completed With SUCCESS 
+[06/10/2015 14:04:42][            AR Invoice - Form Data Event] Starting 
+[06/10/2015 14:04:42][            AR Invoice - Form Data Event]  sCardCode C0000048 AR Invoice 795 sIntUDF Y WhsCode 
+[06/10/2015 14:04:42][            AR Invoice - Form Data Event] Calling IntegrationFlag()
+[06/10/2015 14:04:42][                       IntegrationFlag()] Starting Function
+[06/10/2015 14:04:42][                       IntegrationFlag()] Query Statement 
+[06/10/2015 14:04:42][                       IntegrationFlag()] SELECT T0.[GroupCode] FROM OCRD T0 WHERE T0.[CardCode] = 'C0000048'
+[06/10/2015 14:04:42][                       IntegrationFlag()] Completed With SUCCESS
+[06/10/2015 14:04:42][            AR Invoice - Form Data Event] Intergration process is started 
+[06/10/2015 14:04:42][            AR Invoice - Form Data Event] Calling ConnectToTradingCompany()
+[06/10/2015 14:04:42][               ConnectToTradingCompany()] Starting function
+[06/10/2015 14:04:42][               ConnectToTradingCompany()] Initializing the Company Object
+[06/10/2015 14:04:42][               ConnectToTradingCompany()] Assigning the Trading database name
+[06/10/2015 14:04:42][               ConnectToTradingCompany()] Conncting to the Company Database.
+[06/10/2015 14:04:59][               ConnectToTradingCompany()] Completed with SUCCESS
+[06/10/2015 14:05:00][            AR Invoice - Form Data Event] Calling DraftFlag()
+[06/10/2015 14:05:00][                             DraftFlag()] Starting Function
+[06/10/2015 14:05:00][                             DraftFlag()] Query Statement for fetching the Item Code 
+[06/10/2015 14:05:00][                             DraftFlag()] SELECT Top(1) T0.[ItemCode] FROM INV1 T0 WHERE T0.[DocEntry] = '795'
+[06/10/2015 14:05:00][                             DraftFlag()] Query Statement for Checking the Invetory option 
+[06/10/2015 14:05:00][                             DraftFlag()] SELECT Count(*) as 'Cont'  FROM OITM T0 WHERE T0.[ItemCode]  = 'SG10002848' and T0.[ItmsGrpCod] = '104' and T0.[InvntItem] = 'N' 
+[06/10/2015 14:05:00][                             DraftFlag()] Completed With SUCCESS
+[06/10/2015 14:05:00][            AR Invoice - Form Data Event] Draft Flag True
+[06/10/2015 14:05:00][            AR Invoice - Form Data Event] Calling APInvoiceDraft()
+[06/10/2015 14:05:00][                        APInvoiceDraft()] Starting Function
+[06/10/2015 14:05:00][                        APInvoiceDraft()] Base DocEntry 795
+[06/10/2015 14:05:00][                        APInvoiceDraft()] Before Adding 
+[06/10/2015 14:05:01][                        APInvoiceDraft()] Completed with SUCCESS : 1039
+[06/10/2015 14:05:01][            AR Invoice - Form Data Event] Calling UpdateArInvoiceStatus() - SUCCESS
+[06/10/2015 14:05:01][                 UpdateArInvoiceStatus()] Starting Function
+[06/10/2015 14:05:01][                 UpdateArInvoiceStatus()] AR Invoice DocEntry 795
+[06/10/2015 14:05:01][                 UpdateArInvoiceStatus()] Before Updating 
+[06/10/2015 14:05:02][                 UpdateArInvoiceStatus()] Completed with SUCCESS : 795
+[06/10/2015 14:05:02][                 Insert_IntegrationLog()] Starting Function 
+[06/10/2015 14:05:02][                 Insert_IntegrationLog()] Checking SQL select isnull(Code,'') [Code] from UAT_HSukiGroup .. [@AE_INTEGRATIONLOG] where U_AE_SrcDBName = 'UAT_HSukiGroup' and U_AE_SrcDocEntry = '795' and U_AE_SrcDocType = '13' and U_AE_TgtDBName = 'UAT_RIshiMura' and U_AE_IntegrationStat = 'Fail' and isnull(U_AE_TgtDocEntry,'') = ''
+[06/10/2015 14:05:02][                 Insert_IntegrationLog()] Insert SQL INSERT INTO UAT_HSukiGroup ..[@AE_INTEGRATIONLOG] ([Code], [Name], [U_AE_SrcDBName], [U_AE_SrcDocType], [U_AE_SrcDocEntry], [U_AE_TgtDBName], [U_AE_TgtDocType],[U_AE_TgtDocEntry], [U_AE_TgtDraftDocEnty], [U_AE_IntegrationStat], [U_AE_IntegrationMsg], [U_AE_SrcCreateDate] ) VALUES ('17' , '17', 'UAT_HSukiGroup', '13', '795', 'UAT_RIshiMura','18' , '', '1039', 'Success', '', '20150610' )
+[06/10/2015 14:05:02][                 Insert_IntegrationLog()] Completed with SUCCESS 
+[06/10/2015 14:05:09][            AR Invoice - Form Data Event] Completed with SUCCESS
