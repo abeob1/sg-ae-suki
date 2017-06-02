@@ -1,0 +1,104 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="Suki.Main" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxtoolkit" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" href="Styles/Styles.css" type="text/css" />
+    <script type="text/javascript" src="Scripts/dialog.js"></script>
+    <script type="text/javascript" src="Scripts/main.js"></script>
+    <script type="text/javascript" src="Scripts/common.js"></script>
+    <link rel="stylesheet" href="JQuery/jquery-ui.css" />
+    <script type="text/javascript" src="JQuery/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="JQuery/jquery-ui.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("input:text").on("focus", function (e) {
+                $(this).select();
+            });
+        });
+
+        var key = "";
+        var isNS = (navigator.appName == "Netscape") ? 1 : 0;
+        if (navigator.appName == "Netscape") document.captureEvents(Event.MOUSEDOWN || Event.MOUSEUP);
+        function mischandler() {
+            return false;
+        }
+
+        function keyhandler(en) {
+            key = en.keyCode;
+        }
+
+        function mousehandler(e) {
+            var myevent = (isNS) ? e : event;
+            var eventbutton = (isNS) ? myevent.which : myevent.button;
+            if ((eventbutton == 3)) { alert("Right-click Not Allowed"); return false; }
+            else if ((eventbutton == 2)) { alert("Mouse center-click Not Allowed"); return false; }
+            else if ((key == 17) && (eventbutton == 1)) { alert("Control + Left-click Not Allowed"); key = 0; return false; }
+        }
+        document.oncontextmenu = mischandler;
+        document.onmousedown = mousehandler;
+        document.onmouseup = mousehandler;
+        document.onkeydown = keyhandler;
+        
+    </script>
+</head>
+<body oncontextmenu="return false">
+    <form id="form1" runat="server">
+    <asp:ScriptManager EnablePartialRendering="true" ID="ScriptManagerMain" runat="server"
+        AsyncPostBackTimeout="360000">
+    </asp:ScriptManager>
+    <table border="0" cellpadding="5" cellspacing="5" style="width: 100%;">
+        <tr>
+            <td align="left">
+                <span>Welcome</span>, <strong>
+                    <asp:Label ID="lblUser" runat="server" Font-Size="11pt"></asp:Label></strong>
+                <span>Company</span>: <strong>
+                    <asp:Label ID="lblOutlet" runat="server" Font-Size="11pt"></asp:Label></strong>
+            </td>
+            <td align="right">
+                <asp:LinkButton ID="lnkBack" runat="server" Font-Bold="True" Font-Italic="True" Font-Underline="True"
+                    OnClick="lnkBack_Click">Back</asp:LinkButton>
+                &nbsp;|
+                <asp:LinkButton ID="lnkHome" runat="server" Font-Bold="True" Font-Italic="True" Font-Underline="True"
+                    OnClick="lnkHome_Click">Home</asp:LinkButton>
+                &nbsp;|
+                <asp:LinkButton ID="lnkLogout" runat="server" OnClick="lnkLogout_Click" Font-Bold="True"
+                    Font-Italic="True" Font-Underline="True">Log Out</asp:LinkButton>
+            </td>
+        </tr>
+    </table>
+    <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; height: 100%">
+        <tr style="height: 100%">
+            <td colspan="3" valign="top" style="height: 100%; width: 100%">
+                <script type="text/javascript" language="javascript">
+                    var ModalProgress = '<%= ModalProgress.ClientID %>';         
+                </script>
+                <script type="text/javascript" src="Scripts/jsUpdateProgress.js"></script>
+                <asp:Panel ID="panelUpdateProgress" runat="server" CssClass="updateProgress">
+                    <asp:UpdateProgress ID="UpdateProg1" DisplayAfter="0" runat="server">
+                        <ProgressTemplate>
+                            <div style="position: relative; top: 30%; text-align: center;">
+                                <img src="Images/loading1.gif" style="vertical-align: middle" alt="Processing" height="50px"
+                                    width="50px" />
+                            </div>
+                        </ProgressTemplate>
+                    </asp:UpdateProgress>
+                </asp:Panel>
+                <ajaxtoolkit:ModalPopupExtender ID="ModalProgress" runat="server" TargetControlID="panelUpdateProgress"
+                    BackgroundCssClass="modalBackground" PopupControlID="panelUpdateProgress" />
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </td>
+        </tr>
+    </table>
+    <div id="dialogFrame">
+        <iframe id="iframeItem" width="100%" height="100%" frameborder="0" marginwidth="0"
+            marginheight="0"></iframe>
+    </div>
+    </form>
+</body>
+</html>

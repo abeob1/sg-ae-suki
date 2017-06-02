@@ -1,0 +1,52 @@
+
+Ti.include('/ui/common/LayoutControl.js');
+getRemoteData = function(_url, _param, _callback, _callbackError){
+	Ti.App.indicator.show();
+	var loader = Titanium.Network.createHTTPClient();
+	loader.setRequestHeader("enctype", "multipart/form-data");
+	loader.setRequestHeader("Content-Type", "application/json; charset=utf-8");
+	loader.onload = function() {
+		_callback(this.responseText);
+
+		Ti.App.indicator.hide();
+	};
+	loader.onerror = function(e){
+		Ti.App.indicator.hide();
+		_callbackError();
+		ShowMessage('System msg: ' + e.error);
+		//alert('Server not found.');
+	};
+	loader.open("GET", _url);
+	loader.send(_param);
+};
+
+userLogin = function(_username, _password, _callback, _callbackError){
+	
+	Ti.App.indicator.show();
+	var loader = Titanium.Network.createHTTPClient();
+	
+	//var _url = selectSetting('wsPath') + '/Mobile.asmx/DriverLogin';
+	var _url = Titanium.App.Properties.getString("locationservice") + '/Mobile.asmx/DriverLogin';
+	loader.setRequestHeader("enctype", "multipart/form-data");
+	loader.setRequestHeader("Content-Type", "application/json; charset=utf-8");
+	loader.onload = function() {
+		_callback(this.responseText);
+		//Ti.App.indicator.hide();
+	};
+	loader.onerror = function(e){
+		
+		_callbackError('System msg: ' + e.error);
+	};
+	loader.open("GET", _url);
+	loader.send({'userId': _username, 'password': _password});
+
+};
+
+XMLToJSON = function(_text){
+	var doc = Ti.XML.parseString(_text);
+	var items = doc.getElementsByTagName('string');
+	if(items.length>0){
+		return JSON.parse(items.item(0).text);	
+	}else
+		return null;
+};
