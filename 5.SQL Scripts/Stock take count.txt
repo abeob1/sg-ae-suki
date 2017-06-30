@@ -1,0 +1,6 @@
+select sum(cumulative),ItemCOde, Warehouse from (SELECT ItemCode ,WareHouse, (SUM(InQty)-SUM(OutQty)) AS Cumulative
+FROM OINM WHERE Warehouse = 'SK-ST' and ItemCode = 'SG10000425' 
+GROUP BY ItemCode,WareHouse,InQty,OutQty) TT GROUP by ItemCode, Warehouse
+
+dbcc freeproccache
+exec sp_updatestats

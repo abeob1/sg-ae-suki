@@ -1,0 +1,2 @@
+ update  uset u.Outletname = s.U_WhseName from Outlet_OrderAmount u    inner join [@AB_Outlet] s on        ltrim(rtrim(u.OutletCode))  = ltrim(rtrim(s.U_WhseCode)) where
+        s.U_DBName= 'RSukiFoodCourt' 
