@@ -68,6 +68,8 @@ Public Class TransConnection
                     oCompany.DbServerType = SAPbobsCOM.BoDataServerTypes.dst_MSSQL2008
                 ElseIf ServerType = "2012" Then
                     oCompany.DbServerType = SAPbobsCOM.BoDataServerTypes.dst_MSSQL2012
+                ElseIf ServerType = "2014" Then
+                    oCompany.DbServerType = SAPbobsCOM.BoDataServerTypes.dst_MSSQL2014
                 End If
             End If
         Catch ex As Exception
@@ -92,6 +94,7 @@ Public Class TransConnection
                 MyCommand.CommandType = CommandType.Text
                 Dim da As SqlDataAdapter = New SqlDataAdapter()
                 Dim mytable As DataSet = New DataSet()
+                MyCommand.CommandTimeout = 0
                 da.SelectCommand = MyCommand
                 da.Fill(mytable)
                 myConn.Close()
@@ -110,6 +113,7 @@ Public Class TransConnection
                 Dim da As SqlDataAdapter = New SqlDataAdapter()
                 Dim mytable As DataSet = New DataSet()
                 da.SelectCommand = MyCommand
+                MyCommand.CommandTimeout = 0
                 For i As Integer = 0 To ParamArrays.Length - 1
                     MyCommand.Parameters.AddWithValue(String.Format("{0}{1}", "@Param", i + 1), ParamArrays(i))
                 Next

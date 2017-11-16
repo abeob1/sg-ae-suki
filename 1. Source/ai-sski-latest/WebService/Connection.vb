@@ -82,8 +82,8 @@ Public Class Connection
                     oCompany.DbServerType = SAPbobsCOM.BoDataServerTypes.dst_MSSQL2008
                 ElseIf ServerType = "2012" Then
                     oCompany.DbServerType = SAPbobsCOM.BoDataServerTypes.dst_MSSQL2012
-                    'ElseIf ServerType = "2014" Then
-                    '    oCompany.DbServerType = SAPbobsCOM.BoDataServerTypes.dst_MSSQL2014
+                ElseIf ServerType = "2014" Then
+                    oCompany.DbServerType = SAPbobsCOM.BoDataServerTypes.dst_MSSQL2014
                 Else
                     oCompany.DbServerType = SAPbobsCOM.BoDataServerTypes.dst_MSSQL2005
                 End If
@@ -178,8 +178,8 @@ Public Class Connection
                     oCompany.DbServerType = SAPbobsCOM.BoDataServerTypes.dst_MSSQL2008
                 ElseIf ServerType = "2012" Then
                     oCompany.DbServerType = SAPbobsCOM.BoDataServerTypes.dst_MSSQL2012
-                    'ElseIf ServerType = "2014" Then
-                    '    oCompany.DbServerType = SAPbobsCOM.BoDataServerTypes.dst_MSSQL2014
+                ElseIf ServerType = "2014" Then
+                    oCompany.DbServerType = SAPbobsCOM.BoDataServerTypes.dst_MSSQL2014
                 Else
                     oCompany.DbServerType = SAPbobsCOM.BoDataServerTypes.dst_MSSQL2005
                 End If
@@ -213,6 +213,7 @@ Public Class Connection
                 Dim da As SqlDataAdapter = New SqlDataAdapter()
                 Dim mytable As DataSet = New DataSet()
                 da.SelectCommand = MyCommand
+                MyCommand.CommandTimeout = 0
                 For Each item As KeyValuePair(Of String, String) In ParamArrays
                     MyCommand.Parameters.AddWithValue(item.Key, item.Value)
                 Next
@@ -234,6 +235,7 @@ Public Class Connection
                 MyCommand.CommandType = CommandType.Text
                 Dim da As SqlDataAdapter = New SqlDataAdapter()
                 Dim mytable As DataSet = New DataSet()
+                MyCommand.CommandTimeout = 0
                 da.SelectCommand = MyCommand
                 da.Fill(mytable)
                 myConn.Close()
@@ -254,6 +256,7 @@ Public Class Connection
                 Dim da As SqlDataAdapter = New SqlDataAdapter()
                 Dim mytable As DataSet = New DataSet()
                 da.SelectCommand = MyCommand
+                MyCommand.CommandTimeout = 0
                 For i As Integer = 0 To ParamArrays.Length - 1
                     MyCommand.Parameters.AddWithValue(String.Format("{0}{1}", "@Param", i + 1), ParamArrays(i))
                 Next
@@ -273,6 +276,7 @@ Public Class Connection
                 strCon = myConn.ConnectionString
                 Dim MyCommand As SqlCommand = New SqlCommand(Query, myConn)
                 MyCommand.CommandType = CommandType.Text
+                MyCommand.CommandTimeout = 0
                 For i As Integer = 0 To ParamArrays.Length - 1
                     MyCommand.Parameters.AddWithValue(String.Format("{0}{1}", "@Param", i + 1), ParamArrays(i))
                 Next
@@ -292,6 +296,7 @@ Public Class Connection
                 strCon = myConn.ConnectionString
                 Dim MyCommand As SqlCommand = New SqlCommand(Query, myConn)
                 MyCommand.CommandType = CommandType.Text
+                MyCommand.CommandTimeout = 0
                 Dim count As Integer = MyCommand.ExecuteNonQuery()
                 myConn.Close()
                 Return count
@@ -309,6 +314,7 @@ Public Class Connection
                 strCon = myConn.ConnectionString
                 Dim MyCommand As SqlCommand = New SqlCommand(Query, myConn)
                 MyCommand.CommandType = CommandType.Text
+                MyCommand.CommandTimeout = 0
                 Dim count As Long = MyCommand.ExecuteScalar()
                 myConn.Close()
                 Return count
@@ -326,6 +332,7 @@ Public Class Connection
                 strCon = myConn.ConnectionString
                 Dim MyCommand As SqlCommand = New SqlCommand(Query, myConn)
                 MyCommand.CommandType = CommandType.Text
+                MyCommand.CommandTimeout = 0
                 Dim count As Long = MyCommand.ExecuteScalar()
                 myConn.Close()
                 Return count
@@ -381,6 +388,7 @@ Public Class Connection
                 MyCommand.CommandType = CommandType.Text
                 Dim da As SqlDataAdapter = New SqlDataAdapter()
                 Dim mytable As DataSet = New DataSet()
+                MyCommand.CommandTimeout = 0
                 da.SelectCommand = MyCommand
                 da.Fill(mytable)
                 myConn.Close()
@@ -399,6 +407,7 @@ Public Class Connection
                 Dim da As SqlDataAdapter = New SqlDataAdapter()
                 Dim mytable As DataSet = New DataSet()
                 da.SelectCommand = MyCommand
+                MyCommand.CommandTimeout = 0
                 For i As Integer = 0 To ParamArrays.Length - 1
                     MyCommand.Parameters.AddWithValue(String.Format("{0}{1}", "@Param", i + 1), ParamArrays(i))
                 Next
@@ -466,8 +475,8 @@ Public Class Connection
                 oCompany.DbServerType = SAPbobsCOM.BoDataServerTypes.dst_MSSQL2008
             ElseIf ServerType = 2012 Then
                 oCompany.DbServerType = SAPbobsCOM.BoDataServerTypes.dst_MSSQL2012
-                'ElseIf ServerType = 2014 Then
-                '    oCompany.DbServerType = SAPbobsCOM.BoDataServerTypes.dst_MSSQL2014
+            ElseIf ServerType = 2014 Then
+                oCompany.DbServerType = SAPbobsCOM.BoDataServerTypes.dst_MSSQL2014
             Else
                 oCompany.DbServerType = SAPbobsCOM.BoDataServerTypes.dst_MSSQL2005
             End If
@@ -513,6 +522,7 @@ Public Class Connection
             Using myConn = GetConnectionString_DB()
                 Dim MyCommand As SqlCommand = New SqlCommand(QueryString, myConn)
                 MyCommand.CommandType = CommandType.Text
+                MyCommand.CommandTimeout = 0
                 For i As Integer = 0 To ParamArrays.Length - 1
                     MyCommand.Parameters.AddWithValue(String.Format("{0}{1}", "@Param", i + 1), ParamArrays(i))
                 Next

@@ -84,6 +84,11 @@ Public Class GetDefault
                 newcompayne.DbServerType = SAPbobsCOM.BoDataServerTypes.dst_MSSQL2008
             ElseIf MyArr(7) = 2012 Then
                 newcompayne.DbServerType = SAPbobsCOM.BoDataServerTypes.dst_MSSQL2012
+            ElseIf MyArr(7) = 2014 Then
+                newcompayne.DbServerType = SAPbobsCOM.BoDataServerTypes.dst_MSSQL2014
+
+
+           
             End If
 
             If newcompayne.Connect() <> 0 Then
